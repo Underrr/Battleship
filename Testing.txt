@@ -1,0 +1,12 @@
+Testing procedure:
+    3 Main Tests:
+        1. Invalid argument
+            a) try running program without correct argument line to check error messages
+        2. Invalid files
+            a) try using a non-existent file
+            b) try using a file with non-matching number of ships and ship coordinates
+            c) try using file with overlapping ship coordinates
+        3. Commands
+            a) try every command to ensure works as intended
+            b) try illegal commands to ensure that errors are correctly shown
+            c) play through game to ensure that all messages are correct
